@@ -2,11 +2,10 @@ import Image from 'next/image'
 
 export default function Header(){
   const navigation = [
-      { title: "العملاء", path: "javascript:void(0)" },
-      { title: "الوظائف", path: "javascript:void(0)" },
-      { title: "خطوط الإرشاد", path: "javascript:void(0)" },
-      { title: "شركاء", path: "javascript:void(0)" }
-  ]
+      { title: "الرئيسية", path: "javascript:void(0)" },
+      { title: "توعية", path: "javascript:void(0)" },
+      { title: "الموارد والدعم ", path: "javascript:void(0)" }
+      
   
     return (
         <>
