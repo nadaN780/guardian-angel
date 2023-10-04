@@ -19,42 +19,15 @@ body{
   height:100vh;
   font-family: 'Harmattan', sans-serif;
 }
-a{
-  text-decoration: none ;
-  color:rgb(0, 0, 0);
-}
-header{
-  display:flex ;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px;
-}
+
 header .logo{
   font-size: 40px;
   text-transform: uppercase;
 margin: -10px 0px 0px 40px;
 color: rgb(250, 28, 198);
 
-
 } 
 
-header ul{
-  display: flex;
-  justify-content:center ;
-  align-items:center ;
-  list-style:none ;
-}
-header ul li {
-  margin-left:150px ;
-}
-header ul li a{
-  padding: 6px 15px;
-  border-radius: 20px;
-}
-header ul li a:hover, .active{
-  background:rgb(111, 227, 243) ;
-  color:#e21a8f ;
-}
 #myVideo {
   
   right: 0;
