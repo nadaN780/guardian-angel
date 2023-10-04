@@ -36,7 +36,7 @@ export default function Home() {
             <div className="conditions-list">
                 <div className="condition condition-one">
                     <h3 className="condition-title">الاكتئاب</h3>
-                    <img data-src="./assets/depressionTest-min.jpg" alt="Depression" />
+                    <img src="/assets/depressionTest-min.jpg" alt="Depression" />
                     <p className="condition-description">في عام 2019، كان هناك 280 مليون شخص مصابين 
                         بالاكتئاب، منهم 23 مليون طفل ومراهق . ويختلف الاكتئاب 
                         عن تقلبات المزاج المعتادة والانفعالات العابرة إزاء تحديات 
@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-two">اضطراب القلق العام</h3>
-                    <img data-src="./assets/anxiety-min.jpg" alt="Anxiety" />
+                    <img src="/assets/anxiety-min.jpg" alt="Anxiety" />
                     <p className="condition-description">في عام 2019، كان هناك 301 مليون شخص مصابين باضطراب
                          القلق، منهم 58 مليون طفل 
                          ومراهق . وتتميز اضطرابات القلق بمشاعر الخوف المفرط والقلق والاضطرابات السلوكية ذات
@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-three">اضطراب ثنائي القطب </h3>
-                    <img data-src="./assets/bipolarDisTest-min.jpg" alt="Bipolar" />
+                    <img src="/assets/bipolarDisTest-min.jpg" alt="Bipolar" />
                     <p className="condition-description">في عام 2019، كان هناك 40 مليون شخص يعانون من الاضطراب 
                         الثنائي القطب . ويعاني المصابون بهذا الاضطراب من نوبات اكتئاب 
                         متعاقبة تقترن بفترات من أعراض الهوس. وخلال نوبة الاكتئاب، يعاني المكتئب من تكدّر 
@@ -90,21 +90,21 @@ export default function Home() {
             <h2 className="section-heading">العناية بالنفس</h2>
             <div className="self-care-grid">
                 <div className="self-care-item">
-                    <img data-src="./assets/relaxTest-min.jpg" alt="Relaxation" loading="lazy"/>
+                    <img src="/assets/relaxTest-min.jpg" alt="Relaxation" loading="lazy"/>
                     <h3 className="self-care-item-title">تقنيات الاسترخاء </h3>
                     <p className="self-care-item-description">تعلم تقنيات الاسترخاء البسيطة لمساعدتك على تقليل 
                         التوتر والقلق، مثل التنفس العميق واسترخاء العضلات التدريجي والتخيل الموجه..</p>
                     <a href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368" className="button button-primary">قراءة المزيد </a>
                 </div>
                 <div className="self-care-item">
-                    <img data-src="./assets/exercise-min.jpg" alt="Exercise" loading="lazy"/>
+                    <img src="/assets/exercise-min.jpg" alt="Exercise" loading="lazy"/>
                     <h3 className="self-care-item-title">التمرن</h3>
                     <p className="self-care-item-description">اكتشف كيف يمكن للتمرين أن يحسن صحتك العقلية ورفاهيتك،
                          واستكشف أنواعًا مختلفة من التمارين، بدءًا من اليوجا والبيلاتس وحتى الجري ورفع الأثقال..</p>
                         <a href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469" className="button button-primary">قراءة المزيد </a>
                     </div>
                 <div className="self-care-item">
-                    <img data-src="./assets/mindfullness-min.jpg" alt="Mindfulness" loading="lazy"/>
+                    <img src="/assets/mindfullness-min.jpg" alt="Mindfulness" loading="lazy"/>
                     <h3 className="self-care-item-title"> اليقظة الذهنية </h3>
                     <p className="self-care-item-description">تعرف على فوائد اليقظة الذهنية، واكتشف الممارسات البسيطة
                          التي يمكنك دمجها في حياتك اليومية، مثل التنفس اليقظ، والأكل اليقظ، والتأمل في فحص الجسم..</p>
