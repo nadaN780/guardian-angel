@@ -12,7 +12,13 @@ export default function Header(){
             <header>
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 md:space-x-reverse">
                     <div className="flex justify-between">
-                        <a href="#">
+                        <a href="#" className="flex gap-1">
+                            <Image
+                                src="/aman.png" 
+                                width={120} 
+                                height={50}
+                                alt="Aman Logo"
+                            />
                             <Image
                                 src="/logo.png" 
                                 width={120} 
