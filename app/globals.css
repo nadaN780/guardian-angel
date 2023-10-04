@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.gapItems{
+    gap: 24px;
+}
