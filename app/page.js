@@ -149,7 +149,7 @@ export default function Home() {
             </div>
       </section>
       
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/';}"></iframe>
+      <iframe name="hidden_iframe" id="hidden_iframe" style={{display:none}} onload="if(submitted) {window.location='/';}"></iframe>
 
     <footer>
         
