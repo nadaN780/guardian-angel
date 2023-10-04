@@ -148,6 +148,8 @@ export default function Home() {
             
             </div>
       </section>
+      
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/';}"></iframe>
 
     <footer>
         
@@ -155,7 +157,7 @@ export default function Home() {
             <div className="row">
                 <div className="col-md-6 col-lg-4 form-contain">
                     <h3>تواصل معنا</h3>
-                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc4rOhFdanshR-ERPGdNqDt-B5qn8d-2onsSKDm55jr1eCQ-w/formResponse" method="post">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc4rOhFdanshR-ERPGdNqDt-B5qn8d-2onsSKDm55jr1eCQ-w/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                         <div className="form-group">
                             <input name="entry.1616669378" type="text" placeholder="الاسم" required />
                         </div>
