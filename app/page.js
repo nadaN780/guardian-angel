@@ -50,7 +50,7 @@ export default function Home() {
                          أو تقلبات الشهية أو الوزن، والشعور بالتعب أو فتور 
                         الطاقة أكثر من العادة. والمصابون بالاكتئاب معرضون لخطر 
                         الانتحار بشكل متزايد، ولكن يوجد علاج نفسي فعال، وقد يُنظر أيضاً في أخذ الأدوية رهناً بعمر الفرد ووخامة حالته..</p>
-                    <a href="https://www.who.int/ar/news-room/fact-sheets/detail/depression" className="button button-secondary">اعرف  اكثر</a>
+                    <a target="_blank" href="https://www.who.int/ar/news-room/fact-sheets/detail/depression" className="button button-secondary">اعرف  اكثر</a>
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-two">اضطراب القلق العام</h3>
@@ -64,7 +64,7 @@ export default function Home() {
                          القلق في المواقف الاجتماعية)، واضطراب القلق الانفصالي (المميز بالخوف أو القلق المفرط
                           بشأن الانفصال عن الأفراد الذين تربطهم بالشخص رابطة عاطفية عميقة)، وغيرها من الأنواع
                          . ويوجد علاج نفسي فعال، وقد يُنظر أيضاً في إعطاء الأدوية رهناً بعمر الفرد ووخامة حالته..</p>
-                    <a href="https://psychcentral.com/anxiety" className="button button-secondary">اعرف اكثر</a>
+                    <a target="_blank" href="https://psychcentral.com/anxiety" className="button button-secondary">اعرف اكثر</a>
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-three">اضطراب ثنائي القطب </h3>
@@ -79,7 +79,7 @@ export default function Home() {
                          والسلوك المندفع والطائش. والمصابون بالاكتئاب الثنائي القطب معرضون
                          لزيادة خطر الانتحار، ولكن يوجد خيارات علاج فعالة تشمل التثقيف 
                         النفسي والحد من التوتر وتعزيز الأداء الاجتماعي وأخذ الأدوية..</p>
-                    <a href="https://psychcentral.com/program/shining-a-light-on-bipolar-disorder" className="button button-secondary">اعرف اكثر</a>
+                    <a target="_blank" href="https://psychcentral.com/program/shining-a-light-on-bipolar-disorder" className="button button-secondary">اعرف اكثر</a>
                 </div>
             </div>
         </div>
@@ -94,21 +94,21 @@ export default function Home() {
                     <h3 className="self-care-item-title">تقنيات الاسترخاء </h3>
                     <p className="self-care-item-description">تعلم تقنيات الاسترخاء البسيطة لمساعدتك على تقليل 
                         التوتر والقلق، مثل التنفس العميق واسترخاء العضلات التدريجي والتخيل الموجه..</p>
-                    <a href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368" className="button button-primary">قراءة المزيد </a>
+                    <a target="_blank" href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368" className="button button-primary">قراءة المزيد </a>
                 </div>
                 <div className="self-care-item">
                     <img src="/assets/exercise-min.jpg" alt="Exercise" loading="lazy"/>
                     <h3 className="self-care-item-title">التمرن</h3>
                     <p className="self-care-item-description">اكتشف كيف يمكن للتمرين أن يحسن صحتك العقلية ورفاهيتك،
                          واستكشف أنواعًا مختلفة من التمارين، بدءًا من اليوجا والبيلاتس وحتى الجري ورفع الأثقال..</p>
-                        <a href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469" className="button button-primary">قراءة المزيد </a>
+                        <a target="_blank" href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469" className="button button-primary">قراءة المزيد </a>
                     </div>
                 <div className="self-care-item">
                     <img src="/assets/mindfullness-min.jpg" alt="Mindfulness" loading="lazy"/>
                     <h3 className="self-care-item-title"> اليقظة الذهنية </h3>
                     <p className="self-care-item-description">تعرف على فوائد اليقظة الذهنية، واكتشف الممارسات البسيطة
                          التي يمكنك دمجها في حياتك اليومية، مثل التنفس اليقظ، والأكل اليقظ، والتأمل في فحص الجسم..</p>
-                        <a href="https://www.for9a.com/learn/%D9%81%D9%86-%D8%A7%D9%84%D9%8A%D9%82%D8%B8%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D9%86%D9%8A%D8%A9-Mindfulness" className="button button-primary">قراءة المزيد </a>
+                        <a target="_blank" href="https://www.for9a.com/learn/%D9%81%D9%86-%D8%A7%D9%84%D9%8A%D9%82%D8%B8%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D9%86%D9%8A%D8%A9-Mindfulness" className="button button-primary">قراءة المزيد </a>
                     </div>
               </div>  
         </div>
