@@ -13,7 +13,7 @@ export default function Card({color, text, href}) {
             }
             </div>
             <div className="group-hover:-translate-x-1 group-hover:text-white transition-all font-medium">
-                { color === 'blue' ? 'اضغط للموقع' : 'اضغط لمعرفة المزيد'}
+                { color === 'blue' ? 'اضغط لمعرفة المزيد' : 'اضغط هنا للاتصال'}
             </div>
         </div>
     <div className="flex items-center font-bold text-lg justify-center transition-all group-hover:text-white group-hover:scale-105">
