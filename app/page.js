@@ -19,14 +19,6 @@ export default function Home() {
           </div>
         
           </div>
-          <div className="achievements">
-              <h3 className="achievements-heading">Our Achievements</h3>
-              <ul className="achievements-list">
-                  <li>Recipient of the University Mental Health Grant in 2022</li>
-                  <li>Featured in the local newspaper for our work on mental health awareness</li>
-                  <li>Presented our research on mindfulness and mental health at the Annual Psychology Conference</li>
-              </ul>
-          </div>
     </section>
 
     <section className="mental-health-conditions">
@@ -114,41 +106,6 @@ export default function Home() {
               </div>  
         </div>
     </section>
-
-    <section className="support">
-        <div className="container supp-contain">
-            <h2>الدعم</h2>
-            <div className="resources" id="support">
-                <div className="resource-category mental-orgs">
-                    <h3>منظمات الصحة النفسية</h3>
-                    <ul>
-                        <li><a href="https://www.who.int/ar/news-room/fact-sheets/detail/mental-health-strengthening-our-response">منظمة الصحة العالمية</a></li>
-                        <li><a href="https://nmhp.mohp.gov.eg/mentalworld/web/ar/about-us">الامانة العامة للصحة النفسية وعلاج الادمان</a></li>
-                        <li><a href="http://www.epassociation.net/ar">الجمعية المصرية للطب النفسي</a></li>
-                    </ul>
-                </div>
-                <div className="resource-category supp-groups">
-                    <h3>الدعم النفسي</h3>
-                    <ul>
-                        <li><a href="tel:15115">الخط الساخن لمكتب شكاوى المرأة</a></li>
-                        <li><a href="tel:20818102">الخط الساخن للمجلس القومي للصحة النفسية</a></li>
-                    </ul>
-                </div>
-            </div>       
-            <div className="col-lg-3 col-md-6 service-block">
-                <div className="inner-box wow animated " data-wow-delay="0.1s" data-wow-duration="1500ms">
-                    <div className="icon"><i className="icon-hospital"></i></div>
-                    <h5>الحالات الطارئة</h5>
-                    <h4><ul>
-                        <li><a href="tel:16000">الخط الساخن لنجدة الطفل</a></li><br/>
-                        <li><a href="tel: 0220816831">  لتلقي الاستقسارات النفسية والدعم النفسي</a></li><br/>
-                        <li><a href="tel:08008880700">الخط الساخن لنجدة من لديهم افكار انتحارية</a></li><br/>
-                    </ul> </h4>
-                </div>
-            </div>       
-            
-            </div>
-      </section>
 
       <section className="flex flex-col gap-6 p-4 sm:p-8">
           <div className="w-full flex items-center justify-center">
