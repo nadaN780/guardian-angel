@@ -8,7 +8,7 @@ export default function Home() {
             <source src="/video_2023-09-03_16-01-20.mp4" type="video/mp4" />
         </video>
         <div className="grid place-items-center absolute inset-0 z-20">
-            <p className="flex items-center justify-center text-black font-bold text-3xl p-12">نحن موقع يولي اهتماماً كبيراً بتوعية المجتمع حول المشاكل النفسية والعقلية. نسعى لمساعدة كل من يرغب في تقديم الدعم لشخص مقرب يعاني من مشكلة، ولكنه لا يعرف الطريقة المناسبة. 
+            <p className="flex items-center justify-center text-center font-bold text-3xl p-12">نحن موقع يولي اهتماماً كبيراً بتوعية المجتمع حول المشاكل النفسية والعقلية. نسعى لمساعدة كل من يرغب في تقديم الدعم لشخص مقرب يعاني من مشكلة، ولكنه لا يعرف الطريقة المناسبة. 
                 هنا، نقدم الارشاد اللازم ليتمكن الشخص من تقديم المساعدة بأفضل طريقة ممكنة دون أن يزيد من الضغط على المصاب ويسبب له المزيد من الضيق.</p>
         </div>
     </div>
