@@ -12,19 +12,7 @@ export default function Home() {
                 هنا، نقدم الارشاد اللازم ليتمكن الشخص من تقديم المساعدة بأفضل طريقة ممكنة دون أن يزيد من الضغط على المصاب ويسبب له المزيد من الضيق.</p>
         </div>
     </div>
-    <section className="about-us">
-      <div className="container">
-          <div className="abt-contain">
-              <h2 className="section-heading about-heading">نبذه عنا</h2>
-              <p className="section-subheadin">نحن موقع يولي اهتماماً كبيراً بتوعية المجتمع
-                حول المشاكل النفسية والعقلية. نسعى لمساعدة كل من يرغب في تقديم الدعم
-                لشخص مقرب يعاني من مشكلة، ولكنه لا يعرف الطريقة المناسبة. هنا، نقدم الارشاد
-                  اللازم ليتمكن الشخص من تقديم المساعدة بأفضل طريقة ممكنة دون
-                أن يزيد من الضغط على المصاب ويسبب له المزيد من الضيق.</p> 
-          </div>
-        
-          </div>
-    </section>
+   
 
     <section className="mental-health-conditions">
         <div className="container-conditions">
