@@ -167,6 +167,11 @@ export default function Home() {
             <Card color="red" text="لتلفي الاستفسارات النفسية والدعم النفسي" href="tel:0220816831" />
             <Card color="green" text="الخط الساخن للمجلس القومي للصحة النفسية" href="tel:20818102" />
             <Card color="green" text="الخط الساخن لمكتب شكاوي المرأة" href="tel:15115" />
+            <Card color="green" text="للتواصل مع أطباء الصحة النفسية" href="tel:16328" />
+
+            
+            
+            
 
 
 
