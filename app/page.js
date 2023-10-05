@@ -3,7 +3,7 @@ import Card from "@/components/Card"
 export default function Home() {
   return (
     <>
-    <div className="relative w-full">
+    <div className="relative w-full h-[70vh]">
         <video autoPlay muted loop id="myVideo" className="absolute inset-0 z-10">
             <source src="/video_2023-09-03_16-01-20.mp4" type="video/mp4" />
         </video>
