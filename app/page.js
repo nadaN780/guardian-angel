@@ -1,3 +1,4 @@
+import Card from "@/components/Card"
 
 export default function Home() {
   return (
@@ -147,6 +148,17 @@ export default function Home() {
             </div>       
             
             </div>
+      </section>
+
+      <section className="flex flex-col gap-6 p-4 sm:p-8">
+          <div className="w-full flex items-center justify-center">
+            <h3 className="font-bold text-4xl">الدعم</h3>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 items-stretch">
+            <Card color="red" text="الخط الساخن لمكتب شكاوى المرأة" href="tel:15115" />
+            <Card color="blue" text="الخط الساخن للمجلس القومي للصحة النفسية" href="tel:20818102" />
+            <Card color="green" text="الخط الساخن لنجدة الطفل" href="tel:16000" />
+          </div>
       </section>
       
       <iframe name="hidden_iframe" id="hidden_iframe" style={{display:"none"}} onload="if(submitted) {window.location='/';}"></iframe>
