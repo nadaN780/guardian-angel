@@ -155,9 +155,22 @@ export default function Home() {
             <h3 className="font-bold text-4xl">الدعم</h3>
           </div>
           <div className="grid md:grid-cols-3 gap-6 items-stretch">
-            <Card color="red" text="الخط الساخن لمكتب شكاوى المرأة" href="tel:15115" />
-            <Card color="blue" text="الخط الساخن للمجلس القومي للصحة النفسية" href="tel:20818102" />
-            <Card color="green" text="الخط الساخن لنجدة الطفل" href="tel:16000" />
+          <Card color="blue" text="منظمة الصحة العالمية" href="https://www.who.int/ar/news-room/fact-sheets/detail/mental-health-strengthening-our-response" />
+          <Card color="blue" text="الأمانة العامة للصحة النفسية وعلاج الادمان" href="https://nmhp.mohp.gov.eg/mentalworld/web/ar/about-us" />
+          <Card color="blue" text="الجمعية المصرية للطب النفسي" href="http://www.epassociation.net/ar" />
+
+
+
+
+            <Card color="red" text="الخط الساخن لنجدة من لديهم افكار انتحارية" href="tel:08008880700" />
+            <Card color="red" text="الخط الساخن لنجدة الطفل" href="tel:16000" />
+            <Card color="red" text="لتلفي الاستفسارات النفسية والدعم النفسي" href="tel:0220816831" />
+            <Card color="green" text="الخط الساخن للمجلس القومي للصحة النفسية" href="tel:20818102" />
+            <Card color="green" text="الخط الساخن لمكتب شكاوي المرأة" href="tel:15115" />
+
+
+
+
           </div>
       </section>
       
