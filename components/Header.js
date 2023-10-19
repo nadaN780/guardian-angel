@@ -20,7 +20,7 @@ export default function Header(){
                                 alt="Aman Logo"
                             />
                              <Image
-                                src="/Guardian_Angel__logo.png" 
+                                src="/assets/Guardian_Angel__logo.png" 
                                 width={120} 
                                 height={50}
                                 alt="Aman Logo"
