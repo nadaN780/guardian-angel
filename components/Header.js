@@ -10,6 +10,8 @@ export default function Header(){
     return (
         <>
             <header>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i> </a>
                 <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 md:space-x-reverse">
                     <div className="flex justify-between">
                         <a href="#" className="flex">
