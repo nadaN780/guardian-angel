@@ -19,7 +19,7 @@ export default function Header(){
             <header>
                 <nav className="items-center h-24 sm:pt-3 z-50 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 md:space-x-reverse">
                     <div className="flex justify-between">
-                        <a href="#" className={`${isChecked && 'scale-110'} transition-transform flex z-[100]`}>
+                        <a href="#" className={`${isChecked && 'scale-110'} items-center transition-transform flex z-[100]`}>
                             <Image
                                 src="/logo.png" 
                                 width={180} 
