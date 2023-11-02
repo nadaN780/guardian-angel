@@ -1,16 +1,23 @@
+'use client'
+
 import Image from 'next/image'
+import styles from '@/styles/nav.module.css'
+import { useState } from 'react'
 
 export default function Header(){
+  const [isChecked, setIsChecked] = useState(false);
   const navigation = [
       { title: "الرئيسية", path: "#" },
       { title: "توعية", path: "#" },
       { title: "الموارد والدعم ", path: "#" }
   ]
-  
+  const toggle = () => {
+    setIsChecked(!isChecked);
+  }
     return (
         <>
             <header>
-                <nav className="items-center h-24 pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 md:space-x-reverse">
+                <nav className="items-center h-24 sm:pt-3 z-50 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 md:space-x-reverse">
                     <div className="flex justify-between">
                         <a href="#" className="flex">
                             <Image
@@ -27,10 +34,20 @@ export default function Header(){
                                 className="-mr-8"
                             />
                         </a>
-                        <button className="text-gray-500 outline-none md:hidden"
-                        >
-                            
-                        </button>
+                        <div className="md:hidden z-[100] pt-9">
+                        <input 
+                            type="checkbox"
+                            className={`${styles.checkbox} hidden z-[100]`}
+                            id="checkbox"
+                            checked={isChecked}
+                            onChange={toggle}
+                        />
+                        <label htmlFor="checkbox" className={styles.toggle}>
+                            <div className={`${styles.bars} ${styles.bar1}`}></div>
+                            <div className={`${styles.bars} ${styles.bar2}`}></div>
+                            <div className={`${styles.bars} ${styles.bar3}`}></div>
+                        </label>
+                        </div>
                     </div>
                     <ul className={`flex-1 justify-between mt-12 md:flex md:mt-0 hidden`}>
                         <li className="order-2 pb-5 md:pb-0">
@@ -49,6 +66,15 @@ export default function Header(){
                         </div>
                     </ul>
                 </nav>
+                <div className={`${isChecked ? 'flex flex-col z-40' : 'hidden'} bg-[#F6EDE7] ${styles.navAnimation} fixed p-6 pt-24 inset-0 transition-all ease-in-out gap-4`} role="dialog" aria-modal="true">
+                {
+                    navigation.map((item, idx) => (
+                        <li className="text-gray-500 hover:text-[#7bc7c1] list-none text-lg" key={idx}>
+                            <a href={item.path}>{item.title}</a>
+                        </li>
+                    ))
+                }
+                </div>
             </header>
         </>
     )
