@@ -1,6 +1,16 @@
+'use client'
+
 import Card from "@/components/Card"
+import { useToast } from "@/components/ui/use-toast"
 
 export default function Home() {
+    const { toast } = useToast()
+
+    function handleSubmit(e){
+        e.preventDefault();
+        e.target.reset();
+    }
+
   return (
     <>
     <div className="relative w-full h-[100vh]">
@@ -76,26 +86,26 @@ export default function Home() {
         <div className="container self-contain">
             <h2 className="section-heading">العناية بالنفس</h2>
             <div className="self-care-grid">
-                <div className="self-care-item">
+                <div className="self-care-item flex flex-col justify-between">
                     <img src="/assets/relaxTest-min.jpg" alt="Relaxation" loading="lazy"/>
                     <h3 className="self-care-item-title">تقنيات الاسترخاء </h3>
                     <p className="self-care-item-description">تعلم تقنيات الاسترخاء البسيطة لمساعدتك على تقليل 
                         التوتر والقلق، مثل التنفس العميق واسترخاء العضلات التدريجي والتخيل الموجه..</p>
-                    <a target="_blank" href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368" className="button button-primary">قراءة المزيد </a>
+                    <a target="_blank" href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368" className="button button-primary flex w-full">قراءة المزيد </a>
                 </div>
-                <div className="self-care-item">
+                <div className="self-care-item flex flex-col justify-between">
                     <img src="/assets/exercise-min.jpg" alt="Exercise" loading="lazy"/>
                     <h3 className="self-care-item-title">التمرن</h3>
                     <p className="self-care-item-description">اكتشف كيف يمكن للتمرين أن يحسن صحتك العقلية ورفاهيتك،
                          واستكشف أنواعًا مختلفة من التمارين، بدءًا من اليوجا والبيلاتس وحتى الجري ورفع الأثقال..</p>
-                        <a target="_blank" href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469" className="button button-primary">قراءة المزيد </a>
+                        <a target="_blank" href="https://www.mayoclinic.org/ar/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469" className="button button-primary flex w-full">قراءة المزيد </a>
                     </div>
-                <div className="self-care-item">
+                <div className="self-care-item flex flex-col justify-between">
                     <img src="/assets/mindfullness-min.jpg" alt="Mindfulness" loading="lazy"/>
                     <h3 className="self-care-item-title"> اليقظة الذهنية </h3>
                     <p className="self-care-item-description">تعرف على فوائد اليقظة الذهنية، واكتشف الممارسات البسيطة
                          التي يمكنك دمجها في حياتك اليومية، مثل التنفس اليقظ، والأكل اليقظ، والتأمل في فحص الجسم..</p>
-                        <a target="_blank" href="https://www.for9a.com/learn/%D9%81%D9%86-%D8%A7%D9%84%D9%8A%D9%82%D8%B8%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D9%86%D9%8A%D8%A9-Mindfulness" className="button button-primary">قراءة المزيد </a>
+                        <a target="_blank" href="https://www.for9a.com/learn/%D9%81%D9%86-%D8%A7%D9%84%D9%8A%D9%82%D8%B8%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D9%86%D9%8A%D8%A9-Mindfulness" className="button button-primary flex w-full">قراءة المزيد </a>
                     </div>
               </div>  
         </div>
@@ -138,7 +148,7 @@ export default function Home() {
             <div className="row">
                 <div className="col-md-6 col-lg-4 form-contain">
                     <h3>تواصل معنا</h3>
-                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc4rOhFdanshR-ERPGdNqDt-B5qn8d-2onsSKDm55jr1eCQ-w/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc4rOhFdanshR-ERPGdNqDt-B5qn8d-2onsSKDm55jr1eCQ-w/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" onSubmit={handleSubmit}>
                         <div className="form-group">
                             <input name="entry.1616669378" type="text" placeholder="الاسم" required />
                         </div>
@@ -148,7 +158,16 @@ export default function Home() {
                         <div className="form-group">
                             <textarea name="entry.685362146" placeholder="الرسالة" required></textarea>
                         </div>
-                        <button type="submit" className="btn btn-primary">ارسل</button>
+                        <button type="submit" className="btn btn-primary"
+                            onClick={()=>{ 
+                                toast({
+                                title: "شكرا لتواصلكم معنا",
+                                description: "تم الارسال بنجاح",
+                              })
+                            }}
+                        >
+                            ارسل
+                        </button>
                     </form>
                 </div>
             </div>
