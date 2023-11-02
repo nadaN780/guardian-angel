@@ -23,7 +23,7 @@ export default function Home() {
             <div className="conditions-list">
                 <div className="condition condition-one">
                     <h3 className="condition-title">الاكتئاب</h3>
-                    <img src="/assets/depressionTest-min.jpg" alt="Depression" />
+                    <img src="/assets/depression.webp" alt="Depression" />
                     <p className="condition-description">في عام 2019، كان هناك 280 مليون شخص مصابين 
                         بالاكتئاب، منهم 23 مليون طفل ومراهق . ويختلف الاكتئاب 
                         عن تقلبات المزاج المعتادة والانفعالات العابرة إزاء تحديات 
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-two">اضطراب القلق العام</h3>
-                    <img src="/assets/anxiety-min.jpg" alt="Anxiety" />
+                    <img src="/assets/OIP.jpg" alt="Anxiety" />
                     <p className="condition-description">في عام 2019، كان هناك 301 مليون شخص مصابين باضطراب
                          القلق، منهم 58 مليون طفل 
                          ومراهق . وتتميز اضطرابات القلق بمشاعر الخوف المفرط والقلق والاضطرابات السلوكية ذات
@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-three">اضطراب ثنائي القطب </h3>
-                    <img src="/assets/bipolarDisTest-min.jpg" alt="Bipolar" />
+                    <img src="/assets/bipolar.webp" alt="Bipolar" />
                     <p className="condition-description">في عام 2019، كان هناك 40 مليون شخص يعانون من الاضطراب 
                         الثنائي القطب . ويعاني المصابون بهذا الاضطراب من نوبات اكتئاب 
                         متعاقبة تقترن بفترات من أعراض الهوس. وخلال نوبة الاكتئاب، يعاني المكتئب من تكدّر 
