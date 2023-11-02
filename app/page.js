@@ -21,7 +21,7 @@ export default function Home() {
             <h2 className="section-heading">الاضطرابات النفسيه الاكثر شيوعا</h2>
 
             <div className="conditions-list">
-                <div className="condition condition-one">
+                <div className="condition flex flex-col justify-between condition-one">
                     <h3 className="condition-title">الاكتئاب</h3>
                     <img src="/assets/depression.webp" alt="Depression" />
                     <p className="condition-description">في عام 2019، كان هناك 280 مليون شخص مصابين 
@@ -37,7 +37,7 @@ export default function Home() {
                          أو تقلبات الشهية أو الوزن، والشعور بالتعب أو فتور 
                         الطاقة أكثر من العادة. والمصابون بالاكتئاب معرضون لخطر 
                         الانتحار بشكل متزايد، ولكن يوجد علاج نفسي فعال، وقد يُنظر أيضاً في أخذ الأدوية رهناً بعمر الفرد ووخامة حالته..</p>
-                    <a target="_blank" href="https://www.who.int/ar/news-room/fact-sheets/detail/depression" className="button button-secondary">اعرف  اكثر</a>
+                    <a target="_blank" href="https://www.who.int/ar/news-room/fact-sheets/detail/depression" className="button button-secondary flex w-full">اعرف  اكثر</a>
                 </div>
                 <div className="condition">
                     <h3 className="condition-title condition-two">اضطراب القلق العام</h3>
@@ -53,7 +53,7 @@ export default function Home() {
                          . ويوجد علاج نفسي فعال، وقد يُنظر أيضاً في إعطاء الأدوية رهناً بعمر الفرد ووخامة حالته..</p>
                     <a target="_blank" href="https://psychcentral.com/anxiety" className="button button-secondary">اعرف اكثر</a>
                 </div>
-                <div className="condition">
+                <div className="condition flex flex-col justify-between">
                     <h3 className="condition-title condition-three">اضطراب ثنائي القطب </h3>
                     <img src="/assets/bipolar.webp" alt="Bipolar" />
                     <p className="condition-description">في عام 2019، كان هناك 40 مليون شخص يعانون من الاضطراب 
@@ -66,7 +66,7 @@ export default function Home() {
                          والسلوك المندفع والطائش. والمصابون بالاكتئاب الثنائي القطب معرضون
                          لزيادة خطر الانتحار، ولكن يوجد خيارات علاج فعالة تشمل التثقيف 
                         النفسي والحد من التوتر وتعزيز الأداء الاجتماعي وأخذ الأدوية..</p>
-                    <a target="_blank" href="https://psychcentral.com/program/shining-a-light-on-bipolar-disorder" className="button button-secondary">اعرف اكثر</a>
+                    <a target="_blank" href="https://psychcentral.com/program/shining-a-light-on-bipolar-disorder" className="button button-secondary flex w-full">اعرف اكثر</a>
                 </div>
             </div>
         </div>
