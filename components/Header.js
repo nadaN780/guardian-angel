@@ -19,19 +19,20 @@ export default function Header(){
             <header>
                 <nav className="items-center h-24 sm:pt-3 z-50 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 md:space-x-reverse">
                     <div className="flex justify-between">
-                        <a href="#" className="flex">
+                        <a href="#" className={`${isChecked && 'scale-110'} transition-transform flex z-[100]`}>
                             <Image
                                 src="/logo.png" 
-                                width={120} 
+                                width={180} 
                                 height={50}
                                 alt="Aman Logo"
+                                className="-mr-16"
                             />
                              <Image
                                 src="/assets/Guardian_Angel.png"
                                 width={120} 
                                 height={50}
                                 alt="Aman Logo"
-                                className="-mr-8"
+                                className="-mr-16"
                             />
                         </a>
                         <div className="md:hidden z-[100] pt-9">
@@ -66,10 +67,10 @@ export default function Header(){
                         </div>
                     </ul>
                 </nav>
-                <div className={`${isChecked ? 'flex flex-col z-40' : 'hidden'} bg-[#F6EDE7] ${styles.navAnimation} fixed p-6 pt-24 inset-0 transition-all ease-in-out gap-4`} role="dialog" aria-modal="true">
+                <div className={`${isChecked ? 'flex flex-col z-40' : 'hidden'} bg-[#F6EDE7] ${styles.navAnimation} fixed p-6 pt-32 inset-0 transition-all ease-in-out gap-4`} role="dialog" aria-modal="true">
                 {
                     navigation.map((item, idx) => (
-                        <li className="text-gray-500 hover:text-[#7bc7c1] list-none text-lg" key={idx}>
+                        <li className="text-gray-500 hover:text-[#7bc7c1] list-none text-xl" key={idx}>
                             <a href={item.path}>{item.title}</a>
                         </li>
                     ))

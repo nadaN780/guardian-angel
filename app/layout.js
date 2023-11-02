@@ -8,7 +8,7 @@ const font = Tajawal({
  })
 
 export const metadata = {
-  title: 'guardian angel',
+  title: 'Guardian Angel',
   description: 'Aman is a mental health website that provides resources and information on mindfulness, meditation, and mental wellness',
 }
 
