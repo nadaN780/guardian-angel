@@ -172,17 +172,7 @@ export default function Home() {
             </div>
         </div>
     
-        <div className="copy-right">
-            <div className="col-md-12 col-lg-4 contact-contain">
-                
-                <p><i className="fas fa-phone-alt"></i>Copyright © 2023 Guardian Angel . All rights reserved</p>
-            </div>
-            <div className="container">
-                <div className="row">
-                    
-                </div>
-            </div>
-        </div>
+         
     </footer>
     </>
   )

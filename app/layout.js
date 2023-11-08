@@ -1,6 +1,7 @@
 import './globals.css'
 import { Cairo } from 'next/font/google'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import { Toaster } from "@/components/ui/toaster"
 
 const font = Cairo({ 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={font.className}>
         <Header />
         {children}
+        <Footer />
         <Toaster />
       </body>
     </html>
