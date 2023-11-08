@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100">
+    <footer className="bg-[#6cd2c9]">
       <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
-        <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+        <div className="absolute start-4 top-4 sm:start-6 sm:top-6 lg:start-8 lg:top-8">
           <a
             className="inline-block rounded-full bg-[#538f8a] p-2 text-white shadow transition hover:bg-[#57a49d] sm:p-3 lg:p-4"
             href="#MainContent"
@@ -33,20 +33,26 @@ export default function Footer() {
           </div>
         </div>
 
-        <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
+        <ul className="mt-8 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-8">
           <li>
-            <Image src="/assets/facebook.svg" height={48} width={48} alt="facebook icon" />
+            <a href="https://www.facebook.com/profile.php?id=61553207705910&mibextid=ZbWKwL" target="_blank" className="hover:opacity-80">
+                <Image src="/assets/facebook.svg" height={48} width={48} alt="facebook icon" />
+            </a>
           </li>
           <li>
+          <a href="https://instagram.com/guardianangel509?igshid=MWFhbWI0ZGNja3luag==" target="_blank" className="hover:opacity-80">
             <Image src="/assets/instagram.svg" height={48} width={48} alt="instagram icon" />
+          </a>
           </li>
           <li>
+          <a href="https://x.com/guardian_a_ngel?s=09" target="_blank" className="hover:opacity-80">
             <Image src="/assets/x.svg" height={48} width={48} alt="x icon" />
+          </a>
           </li>
         </ul>
       </div>
 
-      <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
+      <p className="mt-14 -mb-10 text-center text-sm text-gray-500 ">
         Copyright © 2023 Guardian Angel . All rights reserved
       </p>
       </div>
