@@ -7,8 +7,7 @@ export default function Home() {
     const { toast } = useToast()
 
     function handleSubmit(e){
-        e.preventDefault();
-        e.target.reset();
+        e.target.reset()
     }
 
   return (
@@ -172,7 +171,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-
+    
         <div className="copy-right">
             <div className="col-md-12 col-lg-4 contact-contain">
                 
