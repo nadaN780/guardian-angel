@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#da98a2]">
+    <footer className="bg-[#e7b2ba]">
       <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
         <div className="absolute start-4 top-4 sm:start-6 sm:top-6 lg:start-8 lg:top-8">
           <a
@@ -52,7 +52,7 @@ export default function Footer() {
         </ul>
       </div>
 
-      <p className="mt-14 -mb-10 text-center text-sm to text-black ">
+      <p className=" -mb-10 text-center  to text-black ">
         Copyright © 2023 Guardian Angel . All rights reserved
       </p>
       </div>
