@@ -85,7 +85,6 @@
 }
 body{
   height:100vh;
-  font-family: 'Harmattan', sans-serif;
 }
 
  
@@ -130,7 +129,7 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
 
   .hero-heading {
-    font-family: 'Rubik';
+  
     font-size: 3rem;
     font-weight: bold;
     color: #414141;
@@ -140,7 +139,7 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
   
   .hero-subheading {
-    font-family: 'Dancing Script';
+    
     font-size: 1.8rem;
     color: #282828;
     text-align: left;
@@ -156,7 +155,7 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
             background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
             margin: 10px;
             padding: 15px 45px;
-            font-family: 'Rubik';
+          
             font-weight: bold;
             text-align: center;
             transition: 0.5s;
@@ -226,7 +225,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 
 
   .about-us h2 {
-    font-family: 'Lobster';
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -302,7 +300,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
   
   .founders-heading {
-    font-family: 'Lobster';
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -327,7 +324,7 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
   
   .founder-name {
-    font-family: 'Roboto Slab';
+  
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -385,7 +382,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
 
   .mental-health-conditions h2 {
-    font-family: 'Rubik';
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -415,7 +411,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
   
   .mental-health-conditions .condition h3 {
-    font-family: Acme;
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -457,7 +452,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
 
   .self-care h2 {
-    font-family: 'Lobster';
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -885,7 +879,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     width: 100%;
     background-color: #F5F5F5;
     padding-top: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .foot-contain{
@@ -1136,7 +1129,6 @@ background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   }
   
   .header-area .main-nav .nav li.submenu:after {
-    font-family: FontAwesome;
     content: "\f107";
     font-size: 12px;
     color: #2a2a2a;
