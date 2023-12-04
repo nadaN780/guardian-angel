@@ -87,8 +87,6 @@ body{
   height:100vh;
 }
 
- 
-
 #myVideo {
   
   right: 0;
@@ -569,3 +567,6 @@ body{
   }
 
 
+html {
+  scroll-behavior: smooth;
+}
